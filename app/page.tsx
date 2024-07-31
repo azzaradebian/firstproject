@@ -107,7 +107,7 @@ export default function Home() {
     {/* header stop */}
 
     {/* hero start */}
-    <section id="home" className="pt-36 mx-auto flex items-center justify-center h-screen">
+    <section id="home" className="pt-36 mx-auto flex items-center justify-center h-screen ">
       <div className="container">
         <div className="flex flex-wrap">
           <div className="w-full self-center px-4 lg:w-1/2">
@@ -140,7 +140,7 @@ export default function Home() {
       {/* hero stop */}
 
         {/* about section */}
-    <section id="about" className="pt-40 pb-32 mx-auto geadget:flex gadget:items-center gadget:justify-center gadget:p-32 gadget:w-full">
+    <section id="about" className="pt-40 pb-32 mx-auto flex items-center justify-center h-screen">
       <div className="container">
         <div className="flex flex-wrap m-4">
             <div className="w-full px-10 mb-10 lg:w-1/2">
@@ -225,10 +225,10 @@ export default function Home() {
     {/* about stop */}
 
         {/* porto start */}
-        <section id="portfolio" className="pt-36 pb-16 bg-soft mx-auto gadget:flex gadget:items-center gadget:justify-center gadget:h-screen">
+        <section id="portfolio" className="pt-36 pb-16 bg-soft mx-auto w-full">
           <div className="container">
             <div className="w-full px-4">
-              <div className="max-w-xl mx-auto text-center mb-16">
+              <div className="max-w-xl mx-auto text-center mb-16 gadget:m-40 gadget:flex gadget:justify-center ">
                 <h4 className="font-semibold text-lg text-primary mb-2 md:text-xl">Project</h4>
                 <h2 className="font-bold text-secondary text-3xl mb-4 sm:text-3xl lg:text-4xl">School Project</h2>
                 <p className="font-medium text-md text-dark md:text-lg">At school, I learned basic of programing. I learned C++ with DevCpp and 
