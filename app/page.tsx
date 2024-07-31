@@ -140,7 +140,7 @@ export default function Home() {
       {/* hero stop */}
 
         {/* about section */}
-    <section id="about" className="pt-40 pb-32 mx-auto geadget:flex gadget:items-center gadget:justify-center gadget:m-40 gadget:w-full">
+    <section id="about" className="pt-40 pb-32 mx-auto geadget:flex gadget:items-center gadget:justify-center gadget:p-32 gadget:w-full">
       <div className="container">
         <div className="flex flex-wrap m-4">
             <div className="w-full px-10 mb-10 lg:w-1/2">
