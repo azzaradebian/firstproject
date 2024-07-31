@@ -225,10 +225,10 @@ export default function Home() {
     {/* about stop */}
 
         {/* porto start */}
-        <section id="portfolio" className="pt-36 pb-16 bg-soft mx-auto w-full">
+        <section id="portfolio" className="pt-36 pb-16 bg-soft">
           <div className="container">
             <div className="w-full px-4">
-              <div className="max-w-xl mx-auto text-center mb-16 gadget:m-40 flex items-center">
+              <div className="max-w-xl mx-auto text-center mb-16">
                 <h4 className="font-semibold text-lg text-primary mb-2 md:text-xl">Project</h4>
                 <h2 className="font-bold text-secondary text-3xl mb-4 sm:text-3xl lg:text-4xl">School Project</h2>
                 <p className="font-medium text-md text-dark md:text-lg">At school, I learned basic of programing. I learned C++ with DevCpp and 
