@@ -16,6 +16,9 @@ const config: Config = {
             samar: '#d1d5db',
             skill: '#f9fafb'
           },
+          screens: {
+            gadget: '320px'
+          },
     },
   },
   plugins: [],

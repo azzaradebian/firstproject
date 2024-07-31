@@ -34,9 +34,9 @@ export default function Home() {
 
   return (
 
-  <main>
+  <main className="">
     {/* header start */}
-    <header className={`fixed top-0 left-0 right-0 bg-white items-center transition-shadow text-lg duration-300 ${scrolling ? 'shadow-md' : 'shadow-none'} z-10 p-4`}>
+    <header className={`fixed top-0 left-0 right-0 bg-white flex justify-center gadget:justify-center transition-shadow text-lg duration-300 ${scrolling ? 'shadow-md' : 'shadow-none'} z-10 p-4`}>
         <div className="container">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 relative">
@@ -107,15 +107,15 @@ export default function Home() {
     {/* header stop */}
 
     {/* hero start */}
-    <section id="home" className="pt-36">
+    <section id="home" className="pt-36 mx-auto flex items-center justify-center h-screen">
       <div className="container">
         <div className="flex flex-wrap">
           <div className="w-full self-center px-4 lg:w-1/2">
-            <h1 className="block font-bold text-slate-900 text-4xl mt-2 lg:text-5xl">I&apos;m Azzahra Latifa Debian</h1>
-            <h2 className="font-medium text-secondary text-lg">Beginner Developer | <span className="text-secondary">Student</span></h2>
-            <p className="font-medium text-dark mb-10 leading-relaxed"></p>
+            <h1 className="m-4 inline-flex font-bold text-slate-900 text-4xl mt-2 lg:text-5xl">I&apos;m Azzahra Latifa Debian</h1>
+            <h2 className="m-4 font-medium text-secondary text-lg">Beginner Developer | <span className="text-secondary">Student</span></h2>
+            <p className=" m-4 font-medium text-dark mb-10 leading-relaxed"></p>
             <a href="#contact" className="text-base font-semibold text-slate-50 bg bg-primary py-3 px-8 rounded-full hover:opacity-90
-            hover:shadow-lg transition duration-300 ease-in-out">Contact Me</a>
+            hover:shadow-lg transition duration-300 ease-in-out m-4">Contact Me</a>
           </div>
             <div className="w-full self-end px-4 lg:w-1/2 lg:scale-125 md:scale-90 scale-110">
                 <div className="relative mt-10 lg:mt-0 lg:mr-0">
@@ -140,10 +140,10 @@ export default function Home() {
       {/* hero stop */}
 
         {/* about section */}
-    <section id="about" className="pt-36 pb-32 mx-auto">
+    <section id="about" className="pt-40 pb-32 mx-auto flex items-center justify-center h-screen">
       <div className="container">
-        <div className="flex flex-wrap">
-          <div className="w-full px-4 mb-10 lg:w-1/2 ">
+        <div className="flex flex-wrap m-4">
+            <div className="w-full px-10 mb-10 lg:w-1/2">
             <h4 className="font-bold uppercase text-primary text-md mb-3">About Me</h4>
             <h2 className="font-bold text-secondary text-3xl mb-5 max-w-md lg:text-4xl">Hello All</h2>
             <p className="font-medium text-base text-dark max-w-xl lg:text-lg">I&apos;m a student from SMK TI Global Denpasar.
@@ -152,7 +152,7 @@ export default function Home() {
             </p>
             </div>
             <div className="w-full py-10 lg:w-1/2 p-5">
-              <h3 className="font-semibold text-secondary text-2xl mb-4 lg:text-3xl ">Lets Be Friend!</h3>
+              <h3 className="font-semibold text-secondary text-2xl lg:text-3xl ">Lets Be Friend!</h3>
               <p className="font-medium text-base text-dark mb-6">I&apos;m active at social media so, let&apos;s be moots
               </p>
               <div className="flex items-center">
@@ -225,7 +225,7 @@ export default function Home() {
     {/* about stop */}
 
         {/* porto start */}
-        <section id="portfolio" className="pt-36 pb-16 bg-soft">
+        <section id="portfolio" className="pt-36 pb-16 bg-soft mx-auto">
           <div className="container">
             <div className="w-full px-4">
               <div className="max-w-xl mx-auto text-center mb-16">
@@ -301,7 +301,7 @@ export default function Home() {
         {/* skill stop */}
 
         {/* contact+footer start */}
-          <section id="contact" className="pt-36 pb-32">
+          <section id="contact" className="pt-36 pb-32 mx-auto">
             <div className="container">
               <div className="w-full px-4">
                 <div className="max-w-xl mx-auto text-center mb-16">
@@ -344,7 +344,7 @@ export default function Home() {
         {/* contact+footer stop */}
 
         {/* footer start */}
-          <footer className="bg-soft pt-20 pb-10">
+          <footer className="bg-soft pt-20 pb-10 mx-auto">
             <div className="container">
               <div className="flex flex-wrap">
                 <div className="w-full ">
