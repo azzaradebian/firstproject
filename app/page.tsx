@@ -225,7 +225,7 @@ export default function Home() {
     {/* about stop */}
 
         {/* porto start */}
-        <section id="portfolio" className="pt-36 pb-16 bg-soft mx-auto gadget:flex gadget:items-center gadget:justify-center">
+        <section id="portfolio" className="pt-36 pb-16 bg-soft mx-auto gadget:flex gadget:items-center gadget:justify-center gadget:m-40">
           <div className="container">
             <div className="w-full px-4">
               <div className="max-w-xl mx-auto text-center mb-16">
