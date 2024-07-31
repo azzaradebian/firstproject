@@ -107,7 +107,7 @@ export default function Home() {
     {/* header stop */}
 
     {/* hero start */}
-    <section id="home" className="pt-36 mx-auto flex items-center justify-center h-screen">
+    <section id="home" className="pt-36 mx-auto flex items-center justify-center h-screen gadget:-top-4">
       <div className="container">
         <div className="flex flex-wrap">
           <div className="w-full self-center px-4 lg:w-1/2">
