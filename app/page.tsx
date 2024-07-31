@@ -111,8 +111,7 @@ export default function Home() {
       <div className="container">
         <div className="flex flex-wrap">
           <div className="w-full self-center px-4 lg:w-1/2">
-            <h1 className="block font-bold text-slate-900 text-4xl mt-2 lg:text-5xl">
-            I'm Azzahra Latifa Debian</h1>
+            <h1 className="block font-bold text-slate-900 text-4xl mt-2 lg:text-5xl">I&apos;m Azzahra Latifa Debian</h1>
             <h2 className="font-medium text-secondary text-lg">Beginner Developer | <span className="text-secondary">Student</span></h2>
             <p className="font-medium text-dark mb-10 leading-relaxed"></p>
             <a href="#contact" className="text-base font-semibold text-slate-50 bg bg-primary py-3 px-8 rounded-full hover:opacity-90
@@ -146,15 +145,15 @@ export default function Home() {
         <div className="flex flex-wrap">
           <div className="w-full px-4 mb-10 lg:w-1/2 ">
             <h4 className="font-bold uppercase text-primary text-md mb-3">About Me</h4>
-            <h2 className="font-bold text-secondary text-3xl mb-5 max-w-md lg:text-4xl">Hello All👋</h2>
-            <p className="font-medium text-base text-dark max-w-xl lg:text-lg">I'm a student from SMK TI Global Denpasar.
-              I'm majoring in RPL. I am very interested in technological advancements; that's one of the reasons I became
+            <h2 className="font-bold text-secondary text-3xl mb-5 max-w-md lg:text-4xl">Hello All</h2>
+            <p className="font-medium text-base text-dark max-w-xl lg:text-lg">I&apos;m a student from SMK TI Global Denpasar.
+              I&apos;m majoring in RPL. I&apos;am very interested in technological advancements that&apos;s one of the reasons I became
               interested in programming.
             </p>
             </div>
             <div className="w-full py-10 lg:w-1/2 p-5">
               <h3 className="font-semibold text-secondary text-2xl mb-4 lg:text-3xl ">Lets Be Friend!</h3>
-              <p className="font-medium text-base text-dark mb-6">I'm active at social media so, let's be moots
+              <p className="font-medium text-base text-dark mb-6">I&apos;m active at social media so, let&apos;s be moots
               </p>
               <div className="flex items-center">
 
@@ -245,7 +244,7 @@ export default function Home() {
                   <h3 className="font-semibold text-xl text-secondary mt-5 mb-3 p-2">C++ Project</h3>
                   <p className="font-medium text-base text-dark p-2">In the first semester i learned a lot about
                     C++. I made so many project and this is the project that my teacher give it to us to complete the final exam.
-                    This is a online shopping program.
+                    This is an online shopping program.
                   </p>
                 </div>
               </div>
@@ -254,8 +253,8 @@ export default function Home() {
                   <Image src={port2} alt="adobe animate project"
                   className="w-full"/>
                   <h3 className="font-semibold text-xl text-secondary mt-5 mb-3 p-2">Adobe Animate Project</h3>
-                  <p className="font-medium text-base text-dark p-2">In the 2nd semester. I learned about adobe flash and animate.
-                    I made a <span className="italic">edu-game</span> with adobe animate for my final exam. 
+                  <p className="font-medium text-base text-dark p-2">In the last semester. I learned about adobe flash and animate.
+                    I made a <span className="italic">edugame</span> with adobe animate for my final exam. 
                   </p>
                 </div>
               </div>
@@ -308,8 +307,8 @@ export default function Home() {
                 <div className="max-w-xl mx-auto text-center mb-16">
                   <h4 className="font-semibold text-lg text-primary mb-2">Contact</h4>
                   <h2 className="font-bold text-secondary text-3xl mb-4 sm:text-4xl
-                  lg:text-5xl">I'm Here To Help</h2>
-                  <p className="font-medium text-md text-dark md:text-lg">Let's get creative! 
+                  lg:text-5xl">I&apos;m Here To Help</h2>
+                  <p className="font-medium text-md text-dark md:text-lg">Let&apos;s get creative! 
                     If you need help with your project, just let me know!</p>
                 </div>
               </div>
