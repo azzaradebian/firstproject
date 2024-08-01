@@ -151,7 +151,7 @@ export default function Home() {
               interested in programming.
             </p>
             </div>
-            <div className="w-full py-10 lg:w-1/2 p-5">
+            <div className="w-full py-10 lg:w-1/2 p-5 ml-6">
               <h3 className="font-semibold text-secondary text-2xl lg:text-3xl ">Lets Be Friend!</h3>
               <p className="font-medium text-base text-dark mb-6">I&apos;m active at social media so, let&apos;s be moots
               </p>
@@ -225,10 +225,10 @@ export default function Home() {
     {/* about stop */}
 
         {/* porto start */}
-        <section id="portfolio" className="pt-36 pb-16 bg-soft">
+        <section id="portfolio" className="pt-36 pb-16 bg-soft gadget:px-20">
           <div className="container">
             <div className="w-full px-4">
-              <div className="max-w-xl mx-auto text-center mb-16">
+              <div className="max-w-xl mx-auto text-center mb-16 gadget:mx-auto">
                 <h4 className="font-semibold text-lg text-primary mb-2 md:text-xl">Project</h4>
                 <h2 className="font-bold text-secondary text-3xl mb-4 sm:text-3xl lg:text-4xl">School Project</h2>
                 <p className="font-medium text-md text-dark md:text-lg">At school, I learned basic of programing. I learned C++ with DevCpp and 
@@ -236,7 +236,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+            <div className="w-full px-0 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
               <div className="mb-12 p-4 md:w-1/2">
                 <div className="rounded-md shadow-md overflow-hidden">
                   <Image src={port1} alt="program c++: cashier program"
@@ -301,7 +301,7 @@ export default function Home() {
         {/* skill stop */}
 
         {/* contact+footer start */}
-          <section id="contact" className="pt-36 pb-32 mx-auto">
+          <section id="contact" className="pt-36 pb-32 mx-auto gadget:px-20">
             <div className="container">
               <div className="w-full px-4">
                 <div className="max-w-xl mx-auto text-center mb-16">
