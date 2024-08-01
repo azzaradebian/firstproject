@@ -36,7 +36,7 @@ export default function Home() {
 
   <main className="">
     {/* header start */}
-    <header className={`fixed top-0 left-0 right-0 bg-white flex justify-center gadget:justify-center transition-shadow text-lg duration-300 ${scrolling ? 'shadow-md' : 'shadow-none'} z-10 p-4`}>
+    <header className={`fixed top-0 left-0  right-0 bg-white flex justify-center gadget:justify-center transition-shadow text-lg duration-300 ${scrolling ? 'shadow-md' : 'shadow-none'} z-10 p-4`}>
         <div className="container">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 relative">
@@ -107,11 +107,11 @@ export default function Home() {
     {/* header stop */}
 
     {/* hero start */}
-    <section id="home" className="pt-36 mx-auto flex items-center justify-center h-screen ">
+    <section id="home" className="pt-36 mx-auto flex items-center justify-center h-screen">
       <div className="container">
         <div className="flex flex-wrap">
           <div className="w-full self-center px-4 lg:w-1/2">
-            <h1 className="m-4 font-bold text-slate-900 text-4xl mt-2 lg:text-5xl">I&apos;m Azzahra Latifa Debian</h1>
+            <h1 className="m-4 font-bold text-slate-900 text-4xl mt-2 lg:text-5xl md:pt-20">I&apos;m Azzahra Latifa Debian</h1>
             <h2 className="m-4 font-medium text-secondary text-lg">Beginner Developer | <span className="text-secondary">Student</span></h2>
             <p className=" m-4 font-medium text-dark mb-10 leading-relaxed"></p>
             <a href="#contact" className="text-base font-semibold text-slate-50 bg bg-primary py-3 px-8 rounded-full hover:opacity-90
