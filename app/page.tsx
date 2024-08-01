@@ -111,7 +111,7 @@ export default function Home() {
       <div className="container">
         <div className="flex flex-wrap">
           <div className="w-full self-center px-4 lg:w-1/2">
-            <h1 className="m-4 inline-flex font-bold text-slate-900 text-4xl mt-2 lg:text-5xl">I&apos;m Azzahra Latifa Debian</h1>
+            <h1 className="m-4 font-bold text-slate-900 text-4xl mt-2 lg:text-5xl">I&apos;m Azzahra Latifa Debian</h1>
             <h2 className="m-4 font-medium text-secondary text-lg">Beginner Developer | <span className="text-secondary">Student</span></h2>
             <p className=" m-4 font-medium text-dark mb-10 leading-relaxed"></p>
             <a href="#contact" className="text-base font-semibold text-slate-50 bg bg-primary py-3 px-8 rounded-full hover:opacity-90
@@ -264,7 +264,7 @@ export default function Home() {
         {/* porto end */}
 
         {/* skill start */}
-        <section id="skillpage" className="pt-40 pb-16 bg-primary mx-auto">
+        <section id="skillpage" className="pt-40 pb-16 bg-primary mx-auto gadget:px-20">
         <div className="container">
             <div className="w-full px-4">
               <div className="max-w-xl mx-auto text-center mb-16">
@@ -344,7 +344,7 @@ export default function Home() {
         {/* contact+footer stop */}
 
         {/* footer start */}
-          <footer className="bg-soft pt-20 pb-10 mx-auto">
+          <footer className="bg-soft pt-20 pb-10 mx-auto gadget:px-20">
             <div className="container">
               <div className="flex flex-wrap">
                 <div className="w-full ">
