@@ -143,7 +143,7 @@ export default function Home() {
     <section id="about" className="pt-40 pb-32 mx-auto flex items-center justify-center h-screen">
       <div className="container">
         <div className="flex flex-wrap m-4">
-            <div className="w-full px-10 mb-10 lg:w-1/2">
+            <div className="w-full px-10 mb-10 lg:w-1/3 lg:mx-20">
             <h4 className="font-bold uppercase text-primary text-md mb-3">About Me</h4>
             <h2 className="font-bold text-secondary text-3xl mb-5 max-w-md lg:text-4xl">Hello All</h2>
             <p className="font-medium text-base text-dark max-w-xl lg:text-lg">I&apos;m a student from SMK TI Global Denpasar.
@@ -151,8 +151,8 @@ export default function Home() {
               interested in programming.
             </p>
             </div>
-            <div className="w-full py-10 lg:w-1/2 p-5 ml-6">
-              <h3 className="font-semibold text-secondary text-2xl lg:text-3xl ">Lets Be Friend!</h3>
+            <div className="w-full py-10 lg:w-1/3 p-5 ml-6 lg:mx-20">
+              <h3 className="font-semibold text-secondary text-2xl lg:text-3xl">Lets Be Friend!</h3>
               <p className="font-medium text-base text-dark mb-6">I&apos;m active at social media so, let&apos;s be moots
               </p>
               <div className="flex items-center">
