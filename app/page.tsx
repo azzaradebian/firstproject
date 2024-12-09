@@ -1,14 +1,19 @@
 "use client";
 import Image from "next/image";
 import'../styles/custom.css'
-import zara from "../public/zara-transformed-removebg.png"
-import port1 from "../public/portfolio1.png"
-import port2 from "../public/portfolio2.png"
+import taksu1 from "../public/taksu1.png"
+import line from "../public/line.svg"
+import api1 from"../public/api1.png"
+import external1 from "../public/external1.png"
+import qr1 from "../public/qr1.png"
+import qr2 from "../public/qr2.png"
+import devtool from "../public/devtool.png"
+import web1 from "../public/web1.png"
 import React from "react";
-import html from "../public/html5.svg"
-import css from "../public/css3.svg"
-import cpp from "../public/cplusplus (1).svg"
-import javascript from "../public/javascript.svg"
+import react from "../public/react.svg"
+import next from "../public/next.svg"
+import git from "../public/git.svg"
+import tailwind from "../public/tailwind.svg"
 import {useState, useEffect} from "react"
 
 export default function Home() {
@@ -34,15 +39,15 @@ export default function Home() {
 
   return (
 
-  <main className="">
+  <main>
     {/* header start */}
-    <header className={`fixed top-0 left-0  right-0 bg-white flex justify-center gadget:justify-center transition-shadow text-lg duration-300 ${scrolling ? 'shadow-md' : 'shadow-none'} z-10 p-4`}>
+    <header className={`fixed top-0 left-0  right-0 bg-cream flex justify-center gadget:justify-center transition-shadow text-lg duration-300 ${scrolling ? 'shadow-md' : 'shadow-none'} z-10 p-4`}>
         <div className="container">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-2xl">
           <div className="flex items-center justify-between h-16 relative">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                <a href="/" className="text-primary font-bold">
+                <a href="/" className="text-slate-900 font-extrabold">
                 AzzahraLatifa
                 </a>
               </div>
@@ -50,11 +55,11 @@ export default function Home() {
             {/* right */}
             <div className="hidden md:block">
               <div className="ml-4 flex items-center space-x-8">
-                <a href="#home" className="text-primary font-semibold hover:text-opacity-70">Home</a>
-                <a href="#about" className="text-primary font-semibold hover:text-opacity-70">About</a>
-                <a href="#portfolio" className="text-primary font-semibold hover:text-opacity-70">School Project</a>
-                <a href="#skillpage" className="text-primary font-semibold hover:text-opacity-70">My Skill</a>
-                <a href="#contact" className="text-primary font-semibold hover:text-opacity-70">Help</a>
+                <a href="#home" className="text-ijo font-extrabold hover:text-opacity-70">Home</a>
+                <a href="#about" className="text-ijo font-extrabold hover:text-opacity-70">Introduce</a>
+                <a href="#skillpage" className="text-ijo font-extrabold hover:text-opacity-70">Skill</a>
+                <a href="#portfolio" className="text-ijo font-extrabold hover:text-opacity-70">Project</a>
+                <a href ="#contact"className="text-ijo font-extrabold hover:text-opacity-70">Devtools Task</a>
               </div>
             </div>
             {/* humburgeer */}
@@ -95,10 +100,9 @@ export default function Home() {
           <div className="md:hidden py">
             <div className="px-2 py-30 pt-2 space-y-3 sm:px-3">
                 <a href="#home" className="text-primary font-semibold hover:text-opacity-70">Home</a>
-                <a href="#about" className="text-primary block font-semibold hover:text-opacity-70">About</a>
-                <a href="#portfolio" className="text-primary block font-semibold hover:text-opacity-70">School Project</a>
-                <a href="#skillpage" className="text-primary block font-semibold hover:text-opacity-70">My Skill</a>
-                <a href="#contact" className="text-primary block font-semibold hover:text-opacity-70">Help</a>
+                <a href="#about" className="text-primary block font-semibold hover:text-opacity-70">Introduce</a>
+                <a href="#portfolio" className="text-primary block font-semibold hover:text-opacity-70">Skill</a>
+                <a href="#skillpage" className="text-primary block font-semibold hover:text-opacity-70">Project</a>
             </div>
           </div>
         )}
@@ -107,31 +111,23 @@ export default function Home() {
     {/* header stop */}
 
     {/* hero start */}
-    <section id="home" className="pt-36 mx-auto flex items-center justify-center h-screen">
+    <section id="home" className="pt-31 mx-auto flex bg-cream items-center justify-center h-screen">
       <div className="container">
         <div className="flex flex-wrap">
           <div className="w-full self-center px-4 lg:w-1/2">
-            <h1 className="m-4 font-bold text-slate-900 text-4xl mt-2 lg:text-5xl md:pt-20">I&apos;m Azzahra Latifa Debian</h1>
-            <h2 className="m-4 font-medium text-secondary text-lg">Beginner Developer | <span className="text-secondary">Student</span></h2>
+            <h1 className="m-4 font-bold text-ijo text-4xl mt-2 lg:text-7xl md:pt-20">TAKSU TECH INTERNSHIP</h1>
+            <h2 className="m-4 italic font-medium text-secondary text-lg">Bridging Education and Industry Through Hands-On Learning</h2>
             <p className=" m-4 font-medium text-dark mb-10 leading-relaxed"></p>
-            <a href="#contact" className="text-base font-semibold text-slate-50 bg bg-primary py-3 px-8 rounded-full hover:opacity-90
-            hover:shadow-lg transition duration-300 ease-in-out m-4">Contact Me</a>
+            <a href="https://taksu.tech/" className="text-base font-semibold text-slate-50 bg bg-oren py-3 px-8 rounded-full hover:opacity-90
+            hover:shadow-lg transition duration-300 ease-in-out m-4">Visit Taksu Website !</a>
           </div>
-            <div className="w-full self-end px-4 lg:w-1/2 lg:scale-125 md:scale-90 scale-110">
-                <div className="relative mt-10 lg:mt-0 lg:mr-0">
+            <div className="w-full px-4 lg:w-1/2 lg:scale-125 md:scale-90 scale-110">
+                <div className="absolute top-12  inset-x-0 z-0 size-96">
                   <Image 
-                  src={zara} 
-                  alt="azzara"
+                  src={line} 
+                  alt="line"
                   priority 
-                  className="max-w-full mx-auto scale-125"/>
-                    <span className="">
-                      <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" 
-                      className="absolute -bottom-24 -z-10 isolate mx-auto md:scale-75 md:-bottom-32">
-                        <path fill="#f472b6"
-                        d="M67.4,-25.1C73.4,-3.4,54.7,23.1,32.4,37.6C10.1,52.2,-15.8,54.8,-33.9,42.7C-51.9,30.5,-62,3.5,-55,-19.5C-48,-42.5,-24,-61.6,3.3,-62.7C30.7,-63.8,61.4,-46.9,67.4,-25.1Z"
-                        transform="translate(100 100) scale(1.1)" />
-                      </svg>
-                    </span>
+                  className="max-w-full mx-auto scale-125 size-96 mt-14 p-3 -mr-48"/>
                 </div>
             </div>
         </div>
@@ -140,29 +136,34 @@ export default function Home() {
       {/* hero stop */}
 
         {/* about section */}
-    <section id="about" className="pt-40 pb-32 mx-auto flex items-center justify-center h-screen">
+    <section id="about" className="pt-40 pb-32 mx-auto flex bg-ijo items-center h-screen">
       <div className="container">
-        <div className="flex flex-wrap">
-            <div className="w-full px-10 mb-10 lg:w-1/3 lg:mx-20 xl:mx-32 lg:-mb-5 lg:text-start">
-            <h4 className="font-bold uppercase text-primary text-md mb-3">About Me</h4>
-            <h2 className="font-bold text-secondary text-3xl mb-5 max-w-md lg:text-4xl">Hello All</h2>
-            <p className="font-medium text-base text-dark max-w-xl lg:text-lg">I&apos;m a student from SMK TI Global Denpasar.
-              I&apos;m majoring in RPL. I&apos;am very interested in technological advancements that&apos;s one of the reasons I became
-              interested in programming.
-            </p>
-            </div>
+        <div className="flex justify-end">
+        <div>
+                <div className="border-4 rounded-2xl p-5 ml-6">
+                  <Image
+                  src={taksu1}
+                  alt="office"/>
+                </div>
+              </div>
             <div className="w-full py-10 lg:w-1/3 p-5 ml-6 lg:mx-20">
-              <h3 className="font-semibold text-secondary text-2xl lg:text-3xl">Lets Be Friend!</h3>
-              <p className="font-medium text-base text-dark mb-6 mt-3">I&apos;m active at social media so, let&apos;s be moots
+              <h4 className="font-bold uppercase text-white italic text-md text-lg ">Introduce</h4>
+              <h3 className="font-semibold text-pink text-2xl lg:text-6xl -ml-1 pt-2 pb-2 leading-normal">TAKSU TECH</h3>
+              <p className="font-medium italic  text-base text-white mb-6 mt-3">
+              Taksu Tech is an innovative App Development Studio with offices in Singapore and Bali.
+              Specializing in custom mobile and web application development, Taksu Tech serves a global
+              clientele across industries such as fleet management, robotics, bioinformatics,
+              and medical device solutions.
               </p>
-              <div className="flex items-center">
+              <div className="flex ml-10">
+                
 
 
                 {/* instagram */}
-                <a href="https://www.instagram.com/raalilthings/"
+                <a href="https://www.instagram.com/taksu.tech/"
                 target="_blank" className="w-9 h-9 mr-3 rounded-full flex justify-center
-                items-center border border-slate-400 hover:border-primary hover:bg-primary
-                hover:text-white text-slate-400">
+                items-center border border-cream hover:border-pink hover:bg-pink
+                hover:text-ijo text-cream">
                   <svg role="img" width='20' className="fill-current"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"><title>Instagram</title>
@@ -170,23 +171,12 @@ export default function Home() {
                   </svg>
                 </a>
 
-                {/* youtube */}
-                <a href="https://youtube.com"
-                target="_blank" className="w-9 h-9 mr-3 rounded-full flex justify-center
-                items-center border border-slate-400 hover:border-primary hover:bg-primary
-                hover:text-white text-slate-400">
-                  <svg role="img" width='20' className="fill-current"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"><title>YouTube</title>
-                  <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
-                  </svg>
-                </a>
-
+                
                 {/* facebook */}
-                <a href="https://www.facebook.com/azzahra.latifa.3110/"
+                <a href="https://www.facebook.com/"
                 target="_blank" className="w-9 h-9 mr-3 rounded-full flex justify-center
-                items-center border border-slate-400 hover:border-primary hover:bg-primary
-                hover:text-white text-slate-400">
+                items-center border border-cream hover:border-pink hover:bg-pink
+                hover:text-ijo text-cream">
                   <svg role="img" width='20' className="fill-current"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"><title>Facebook</title>
@@ -194,23 +184,11 @@ export default function Home() {
                   </svg>
                 </a>
 
-                {/* twtter */}
-                <a href="https://twitter.com"
-                target="_blank" className="w-9 h-9 mr-3 rounded-full flex justify-center
-                items-center border border-slate-400 hover:border-primary hover:bg-primary
-                hover:text-white text-slate-400">
-                   <svg role="img" width='20' className="fill-current"
-                   viewBox="0 0 24 24"
-                   xmlns="http://www.w3.org/2000/svg"><title>X</title>
-                   <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/>
-                   </svg>
-                </a>
-
                {/* linkdn */}
-               <a href="https://linkedin.com/"
+               <a href="https://id.linkedin.com/company/taksu-teknologi"
                 target="_blank" className="w-9 h-9 mr-3 rounded-full flex justify-center
-                items-center border border-slate-400 hover:border-primary hover:bg-primary
-                hover:text-white text-slate-400">
+                items-center border border-cream hover:border-pink hover:bg-pink
+                hover:text-ijo text-cream">
                 <svg role="img" width='20' className="fill-current"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"><title>LinkedIn</title>
@@ -224,37 +202,74 @@ export default function Home() {
     </section>
     {/* about stop */}
 
-        {/* porto start */}
-        <section id="portfolio" className="pt-36 pb-16 bg-soft gadget:px-20">
+        {/* skill start */}
+        <section id="skillpage" className="pt-40 pb-40 bg-pink mx-auto gadget:px-20">
+        <div className="container">
+            
+            <div className="w-full px-4">
+              <div className="flex items-center justify-center">
+                <div className="max-w-[500] mx-4 py-4 lg:mx-6 xl:mx-8 border-4 border-brow p-5 rounded-2xl">
+                <Image src={react} alt="react" width={200} height={200}
+                className="fill-current"/>
+                <h4 className="text-brow mt-1 font-bold flex flex-wrap items-center justify-center -mb-3">React.js</h4>
+                </div>
+                <div className="max-w-[500] mx-4 my-4 py-4 lg:mx-6 xl:mx-8 border-4 border-brow p-5 rounded-2xl">
+                <Image src={next} alt="nextjs" width={200} height={200}
+                className="fill-current"/>
+                <h4 className="text-brow mt-1 font-bold flex flex-wrap items-center justify-center -mb-3">Next.js</h4>
+                </div>
+                <div className="max-w-[500] mx-4 py-4 lg:mx-6 xl:mx-8 border-4 border-brow p-5 rounded-2xl">
+                <Image src={git} alt="git" width={200} height={200}
+                className="fill-current"/>
+                <h4 className="text-brow mt-1 font-bold flex flex-wrap items-center justify-center -mb-3">Git</h4>
+                </div>
+                <div className="max-w-[500] mx-4 py-4 lg:mx-6 xl:mx-8 border-4 border-brow p-5 rounded-2xl">
+                <Image src={tailwind} alt="git" width={200} height={200}
+                className="fill-current"/>
+                <h4 className="text-brow mt-1 font-bold flex flex-wrap items-center justify-center -mb-3">Tailwindcss</h4>
+                </div>
+                </div>
+            </div>
+            <div className="w-full px-4">
+              <div className="max-w-xl mx-auto text-center mb-16">
+                <h2 className="font-extrabold mt-16 text-3xl mb-4 sm:text-3xl lg:text-4xl text-secondary">My Skills</h2>
+                <p className="text-dark italic">During my internship at Taksu, I learned various skills that I applied to the projects I worked on.
+                   My experiences allowed me to contribute to different stages of project development</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* skill stop */}
+
+{/* porto start */}
+        <section id="portfolio" className="pt-36 pb-16 bg-biru gadget:px-20">
           <div className="container">
             <div className="w-full px-4">
               <div className="max-w-xl mx-auto text-center mb-16 gadget:mx-auto">
-                <h4 className="font-semibold text-lg text-primary mb-2 md:text-xl">Project</h4>
-                <h2 className="font-bold text-secondary text-3xl mb-4 sm:text-3xl lg:text-4xl">School Project</h2>
-                <p className="font-medium text-md text-dark md:text-lg">At school, I learned basic of programing. I learned C++ with DevCpp and 
-                  design user interface with adobe flash and adobe animate
+                <h2 className="font-bold text-ijo text-3xl mb-4 sm:text-3xl lg:text-4xl">Internship Project</h2>
+                <p className="font-medium text-md text-dark md:text-lg">During my internship, I had the opportunity to work on both individual projects and team projects. 
+                  These experiences allowed me to develop technical skills and ability to collaborate in a team project
                 </p>
               </div>
             </div>
             <div className="w-full px-0 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
-              <div className="mb-12 p-4 md:w-1/2">
-                <div className="rounded-md shadow-md overflow-hidden">
-                  <Image src={port1} alt="program c++: cashier program"
+            <div className="mb-12 p-4 md:w-1/2">
+                <div className="rounded-md shadow-md overflow-hidden bg-pink p-4">
+                  <Image src={web1} alt="website project"
                   className="w-full"/>
-                  <h3 className="font-semibold text-xl text-secondary mt-5 mb-3 p-2">C++ Project</h3>
-                  <p className="font-medium text-base text-dark p-2">In the first semester i learned a lot about
-                    C++. I made so many project and this is the project that my teacher give it to us to complete the final exam.
-                    This is an online shopping program.
+                  <h3 className="font-semibold text-xl text-ijo mt-5 mb-3 p-2 text-center">Profile Project</h3>
+                  <p className="font-medium text-base text-white p-2">I worked on this project at the beginning of my internship. Before joining the project meetings, I was advised to learn Next.js and Tailwind CSS,
+                    as I would be using both frameworks for this task.
                   </p>
                 </div>
               </div>
               <div className="mb-12 p-4 md:w-1/2">
-                <div className="rounded-md shadow-md overflow-hidden">
-                  <Image src={port2} alt="adobe animate project"
+                <div className="rounded-md shadow-md overflow-hidden bg-pink p-4">
+                  <Image src={devtool} alt="devtools"
                   className="w-full"/>
-                  <h3 className="font-semibold text-xl text-secondary mt-5 mb-3 p-2">Adobe Animate Project</h3>
-                  <p className="font-medium text-base text-dark p-2">In the last semester. I learned about adobe flash and animate.
-                    I made a <span className="italic">edugame</span> with adobe animate for my final exam. 
+                  <h3 className="font-semibold text-xl text-ijo mt-5 mb-3 p-2 text-center">Devtools Team Project</h3>
+                  <p className="font-medium text-base text-white p-2">In this project, I joined a team project. In this project, Iprimarily
+                     used the React.js framework and Git to collaborate effectively with other team members. 
                   </p>
                 </div>
               </div>
@@ -262,89 +277,66 @@ export default function Home() {
           </div>
         </section>
         {/* porto end */}
-
-        {/* skill start */}
-        <section id="skillpage" className="pt-40 pb-16 bg-primary mx-auto gadget:px-20">
-        <div className="container">
-            <div className="w-full px-4">
-              <div className="max-w-xl mx-auto text-center mb-16">
-                <h2 className="font-bold text-sla text-3xl mb-4 sm:text-3xl lg:text-4xl text-slate-50">My Skills</h2>
-                
-              </div>
-            </div>
-            <div className="w-full px-4">
-              <div className="flex flex-wrap items-center justify-center">
-                <div className="max-w-[140px] mx-4 py-4 lg:mx-6 xl:mx-8 border border-skill p-5 rounded-2xl">
-                <Image src={html} alt="html" width={100} height={100}
-                className="fill-current"/>
-                <h4 className="text-skill mt-1 font-bold flex flex-wrap items-center justify-center -mb-3">HTML</h4>
-                </div>
-                <div className="max-w-[140] mx-4 my-4 py-4 lg:mx-6 xl:mx-8 border border-skill p-5 rounded-2xl">
-                <Image src={css} alt="css" width={100} height={100}
-                className="fill-current"/>
-                <h4 className="text-skill mt-1 font-bold flex flex-wrap items-center justify-center -mb-3">CSS</h4>
-                </div>
-                <div className="max-w-[140] mx-4 py-4 lg:mx-6 xl:mx-8 border border-skill p-5 rounded-2xl">
-                <Image src={cpp} alt="cpp" width={100} height={100}
-                className="fill-current"/>
-                <h4 className="text-skill mt-1 font-bold flex flex-wrap items-center justify-center -mb-3">C++</h4>
-                </div>
-                <div className="max-w-[140] mx-4 py-4 lg:mx-6 xl:mx-8 border border-skill p-5 rounded-2xl">
-                <Image src={javascript} alt="java" width={100} height={100}
-                className="fill-current"/>
-                <h4 className="text-skill mt-1 font-bold flex flex-wrap items-center justify-center -mb-3">JAVASCRIPT</h4>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        {/* skill stop */}
-
+        
         {/* contact+footer start */}
-          <section id="contact" className="pt-36 pb-32 mx-auto gadget:px-20">
+          <section id="contact" className="pt-36 pb-32 mx-auto gadget:px-20 bg-brow">
             <div className="container">
-              <div className="w-full px-4">
-                <div className="max-w-xl mx-auto text-center mb-16">
-                  <h4 className="font-semibold text-lg text-primary mb-2">Contact</h4>
-                  <h2 className="font-bold text-secondary text-3xl mb-4 sm:text-4xl
-                  lg:text-5xl">I&apos;m Here To Help</h2>
-                  <p className="font-medium text-md text-dark md:text-lg">Let&apos;s get creative! 
-                    If you need help with your project, just let me know!</p>
+            <div className="w-full px-4">
+              <div className="max-w-xl mx-auto text-center mb-16 gadget:mx-auto">
+                <h2 className="font-bold text-white text-3xl mb-4 sm:text-3xl lg:text-4xl italic">Devtools Task</h2>
+                <p className="text-cream">The DevTools project is an app development initiative that provides tools to assist developers in their work.</p>
+              </div>
+            </div>
+            <div className="w-full px-0 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+            <div className="mb-12 p-4 md:w-1/2">
+                <div className="overflow-hidden ">
+                  <Image src={qr1} alt="copy direct url"
+                  className="w-full rounded-xl shadow-xl"/>
+                  <div className="border-pink rounded-xl shadow-md bg-pink">
+                  <h3 className=" font-semibold text-xl text-ijo mt-5 p-5 mb-4 bg-center text-center">QR Code Improvement Tools</h3>
+                  <p className="-mt-9 pb-3 text-center italic text-dark">Copy Direct URL Button</p>
+                  </div>
+                  
                 </div>
               </div>
-                <form>
-                  <div className="w-full lg:w-2/3 lg:mx-auto">
-                  <div className="w-full px-4 mb-8">
-                    <label htmlFor="name" className="text-base text-primary font-bold">Name</label>
-                    <input type="text" id="name" className="w-full bg-soft text-secondary
-                    p-3 rounded-md focus:outline-none focus:ring-primary
-                    focus:riing-1 focus:border-primary"></input>
-                  </div>
-                  <div className="w-full px-4 mb-8">
-                    <label htmlFor="email" className="text-base text-primary font-bold">Email</label>
-                    <input type="email" id="email" className="w-full bg-soft text-secondary
-                    p-3 rounded-md focus:outline-none focus:ring-primary
-                    focus:riing-1 focus:border-primary"></input>
-                  </div>
-                  <div className="w-full px-4 mb-8">
-                    <label htmlFor="message" className="text-base text-primary font-bold">Message</label>
-                    <textarea id="message" className="w-full bg-soft text-secondary
-                     p-2 h-32 rounded-md focus:outline-none focus:ring-primary
-                    focus:riing-1 focus:border-primary"></textarea>
-                  </div>
-                  <div className="w-full px-5">
-                    <button className="text-base font-semibold text-white bg-primary
-                    py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow-lg transition
-                    duration-500">Send</button>
+              <div className="mb-12 p-4 md:w-1/2">
+                <div className="overflow-hidden">
+                  <Image src={qr2} alt="Color option"
+                  className="w-full rounded-xl shadow-xl"/>
+                  <div className="border-pink rounded-xl shadow-md bg-pink mt-16">
+                  <h3 className=" font-semibold text-xl text-ijo mt-5 p-5 mb-4 bg-center text-center">QR Code Improvement Tools</h3>
+                  <p className="-mt-9 pb-3 text-center italic text-dark">Add color option using Daisy.UI</p>
                   </div>
                   </div>
-                </form>
+              </div>
+
+              <div className="mb-12 p-4 md:w-1/2">
+                <div className="overflow-hidden">
+                  <Image src={api1} alt="imtegrate api data"
+                  className="w-full rounded-xl shadow-xl h-60"/>
+                  <div className="border-pink rounded-xl shadow-md bg-pink">
+                  <h3 className=" font-semibold text-xl text-ijo mt-5 p-5 mb-4 bg-center text-center">SMTP Maildev Improvement Tools</h3>
+                  <p className="-mt-9 pb-3 text-center italic text-dark">Connect SMTP Maildev to Data API</p>
+                  </div>
+                </div>
+              </div>
+              <div className="mb-12 p-4 md:w-1/2">
+                <div className="overflow-hidden">
+                  <Image src={external1} alt="external tools"
+                  className="w-full rounded-xl shadow-xl h-60"/>
+                 <div className="border-pink rounded-xl shadow-md bg-pink">
+                  <h3 className=" font-semibold text-xl text-ijo mt-5 p-5 mb-4 bg-center text-center">Add New External Tools</h3>
+                  <p className="-mt-9 pb-3 text-center italic text-dark">Add external tools (SVG Icon Library & IU Inspiration)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
             </div>
           </section>
         {/* contact+footer stop */}
 
         {/* footer start */}
-          <footer className="bg-soft pt-20 pb-10 mx-auto gadget:px-20">
+          <footer className="bg-cream pt-20 pb-10 mx-auto gadget:px-20">
             <div className="container">
               <div className="flex flex-wrap">
                 <div className="w-full ">
@@ -353,8 +345,8 @@ export default function Home() {
                   {/* instagram */}
                   <a href="https://www.instagram.com/raalilthings/"
                   target="_blank" className="w-8 h-8 mr-3 rounded-full flex justify-center
-                  items-center border border-slate-500 hover:border-primary hover:bg-primary
-                  hover:text-white text-slate-500">
+                  items-center border border-oren hover:border-oren hover:bg-oren
+                hover:text-cream text-oren">
                     <svg role="img" width='18' className="fill-current"
                     viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg"><title>Instagram</title>
@@ -365,8 +357,8 @@ export default function Home() {
                 {/* youtube */}
                 <a href="https://youtube.com"
                 target="_blank" className="w-8 h-8 mr-3 rounded-full flex justify-center
-                items-center border border-slate-500 hover:border-primary hover:bg-primary
-                hover:text-white text-slate-500">
+                items-center border border-oren hover:border-oren hover:bg-oren
+                hover:text-cream text-oren">
                   <svg role="img" width='18' className="fill-current"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"><title>YouTube</title>
@@ -377,8 +369,8 @@ export default function Home() {
                 {/* facebook */}
                 <a href="https://www.facebook.com/azzahra.latifa.3110/"
                 target="_blank" className="w-8 h-8 mr-3 rounded-full flex justify-center
-                items-center border border-slate-500 hover:border-primary hover:bg-primary
-                hover:text-white text-slate-500">
+                items-center border border-oren hover:border-oren hover:bg-oren
+                hover:text-cream text-oren">
                   <svg role="img" width='18' className="fill-current"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"><title>Facebook</title>
@@ -389,8 +381,8 @@ export default function Home() {
                 {/* twtter */}
                 <a href="https://twitter.com"
                 target="_blank" className="w-8 h-8 mr-3 rounded-full flex justify-center
-                items-center border border-slate-500 hover:border-primary hover:bg-primary
-                hover:text-white text-slate-500">
+                items-center border border-oren hover:border-oren hover:bg-oren
+                hover:text-cream text-oren">
                   <svg role="img" width='18' className="fill-current"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"><title>X</title>
@@ -401,8 +393,8 @@ export default function Home() {
                 {/* linkdn */}
                 <a href="https://linkedin.com/"
                 target="_blank" className="w-8 h-8 mr-3 rounded-full flex justify-center
-                items-center border border-slate-500 hover:border-primary hover:bg-primary
-                hover:text-white text-slate-500">
+                items-center border border-oren hover:border-oren hover:bg-oren
+                hover:text-cream text-oren">
                 <svg role="img" width='18' className="fill-current"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"><title>LinkedIn</title>
@@ -410,7 +402,7 @@ export default function Home() {
                 </svg>
                 </a>
                 </div>
-                <p className="font-medium text-sm text-slate-500 text-center mt-5">Copyright © Azzahra Latifa, All rights reserved.</p>
+                <p className="font-bold text-sm text-ijo text-center mt-5">Copyright © Azzahra Latifa, All rights reserved.</p>
                 </div>
               </div>
             </div>

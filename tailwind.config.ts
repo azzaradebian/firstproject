@@ -14,7 +14,14 @@ const config: Config = {
             secondary: '#0f172a',
             soft:  '#fff1f2',
             samar: '#d1d5db',
-            skill: '#f9fafb'
+            skill: '#f9fafb',
+            cream:'#fffcf9',
+            ijo: '#036147',
+            oren: '#ff8531',
+            pink: '#F3CCE7',
+            brow: '#b33f62',
+            biru: '#AED9E4',
+            ungu: '#CAA2B8'
           },
           screens: {
             gadget: '320px'
